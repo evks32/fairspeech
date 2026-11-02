@@ -59,4 +59,6 @@ LanguageTool needs Java 17 or later. ASR models run on Colab: `pip install -r re
 | [Contributing guide](CONTRIBUTING.md) | Branch rules, review rotation, commit conventions | C |
 | [Data contracts](docs/data_contracts.md) | Segment table and feedback JSON formats | A (segment table), C (feedback JSON) |
 | [Proposal and plan](docs/proposal/) | Project proposal, final plan and team roles | team |
-| … | … | … |
+| [ASR inference & evaluation](src/asr/README.md) | Whisper, CrisperWhisper, Vosk wrappers, WER, normalisation | B |
+| [Feedback gate](src/gate/README.md) | Feature extraction, baseline sweep, LR/LightGBM training, evaluation | B |
+| [ASR & Gate Colab Notebook](notebooks/asr_and_gate_colab.ipynb) | GPU transcription & feedback gate training workflow | B |
